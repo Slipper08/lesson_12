@@ -1,0 +1,452 @@
+/* &display=swap */
+@import 'null.css';
+
+.main{
+	/* height: 100vh; */
+	/* background: url("../img/impala_2.jpg") 50% no-repeat; */
+}
+.main-container{
+	position: relative;
+	top: 10%;
+	left: 45%;
+}
+.main-roof{
+
+}
+.main-roof__glass{
+	position: relative;
+	width: 35px; 
+	height: 50px;
+	transform: skew(-45deg);
+	background: #919796bb;
+	border-radius: 3px 3px 5px 5px;
+	top: 55px;
+	right: 27px;
+}
+.main-roof__head::before{
+	/* content: "";
+	display: block;
+	position: relative;
+	width: 55px;
+	height: 15px;
+	background-color: #221B1C; */
+}
+.main-roof__head{
+	position: relative;
+	width: 195px;
+	height: 20px;
+	background-color: #221B1C;
+	/* transform: perspective(60px) rotateX(-60deg); */
+	border-radius: 75px 30px 50px 75px/10px 10px 10px 10px;
+	right: 7px;
+	z-index: 1;
+}
+.main-roof__back-glass{
+	position: relative;
+	height: 0; 
+	width: 65px;
+	height: 90px;
+	background-color: #221B1C;
+	transform: perspective(100px) rotateY(44deg) rotateX(65deg);
+	border-radius:10px 10px 10px 0px;
+	bottom: 48px;
+	left: 155px;
+}
+.main-roof__back-glass::after{
+	position: relative;
+	content: "";
+	display: block;
+	width: 50px;
+	height: 100px;
+	left: 14px;
+	background-color: #221B1C;
+}
+
+.main-roof__center{
+	position: relative;
+	height: 0; 
+	width: 180px;
+	height: 75px;
+	background-color: #FEFEFE;
+	transform: perspective(120px) rotateX(50deg) rotateY(-2deg);
+	border-radius: 10px 40px 15px 0px/10px 40px 0 0;
+	right: 5px;
+	bottom: 116px;
+	/* left: 2px; */
+	z-index: 2;
+	border: 1px solid rgb(0, 0, 0);
+}
+.main-roof__inside{
+	position: relative;
+	height: 0;
+	width: 173px;
+	height: 65px;
+	background-color: #FEFEFE;
+	/* transform: perspective(5vw) rotateX(50deg); */
+	border-radius: 10px 40px 10px 0px;
+	top: 5px;
+	left: 3px;
+	/* bottom: 122px;
+	left: 8px; */
+	z-index: 1;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+.main-body__hood {
+	position: relative;
+	height: 0; 
+	width: 180px;
+	height: 25px;
+	background-color: #221B1C;
+	transform: perspective(100px) rotateX(45deg) rotateY(-6deg);
+	border-radius: 10px 20px 5px 5px;
+	z-index: 1;
+	bottom: 140px;
+	right: 205px;
+}
+.main-body__hood-side{
+	position: relative;
+	background-color: #221B1C;
+	width: 500px;
+	height: 60px;
+	transform: rotateX(45deg) rotateY(-3deg) skew(15deg);
+	bottom: 165px;
+	right: 200px;
+	border-radius:20px 20px 0 0;
+	border-top: 1px solid rgb(87, 83, 83);
+	z-index: 2;
+}
+.main-body__hood-side-ahead {
+	position: relative;
+	background-color: #221B1C;
+	width: 162px;
+	height: 29px;
+	bottom: 180px;
+	right: 192px;
+	transform: rotate(1deg);
+	border-radius: 0 0 0 10px;
+}
+.main-body__hood-side-line {
+	position: relative;
+	background-color: #cad7dd;
+	width: 250px;
+	height: 6px;
+	bottom: 200px;
+	right: 70px;
+	transform: rotate(-2deg);
+	z-index: 3;
+}
+.main-body__hood-side-ark {
+	position: relative;
+	background-color: transparent;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+	width: 80px;
+	height: 40px;
+	border-radius: 30px 30px 20px 20px / 15px 15px 5px 5px;
+	transform: perspective(200px) rotateX(-30deg) rotateY(0deg);
+	z-index: 3;
+	bottom: 218px;
+	right: 150px;
+}
+.main-body__hood-side-wheel {
+	position: relative;
+	background-color: #282A25;
+	height: 67px;
+	width: 67px;
+	border-radius: 50%;
+	bottom: 270px;
+	right: 145px;
+}
+.main-body__hood-side-wheel-disk {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background-color: #BCD2DF;
+	border: 3px solid #8E9697;
+	z-index: 3;
+	border-radius: 50%;
+	top: 25%;
+	left: 20%;
+	box-shadow: inset 0px 0px 3px 3px #221B1C;
+}
+.main-body__hood-side-wheel-disk-2 {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #050505;
+	top: 39%;
+	left: 35%;
+	z-index: 3;
+}
+.main-body__doors-block{
+	position: relative;
+	width: 220px;
+	height: 50px;
+	background-color: #221B1C;
+	bottom: 345px;
+	right: 35px;
+	transform: rotate(-2deg);
+}
+.main-body__door-one {
+	position:relative;
+	width: 101px;
+	height: 28px;
+	background-color: transparent;
+	border-right: 1px solid #646162;
+	border-left: 1px solid #646162;
+	z-index: 3;
+	bottom: 406px;
+	right: 20px;
+	transform: rotate(1deg);
+	transform: skewX(-3deg);
+}
+.main-body__door-one-two {
+	position:relative;
+	width: 101px;
+	height: 28px;
+	background-color: transparent;
+	border-bottom: 1px solid #646162;
+	border-right: 1px solid #646162;
+	border-left: 1px solid #646162;
+	z-index: 3;
+	bottom: 407px;
+	right: 20px;
+	transform: rotate(-2deg);
+}
+.main-body__door-one-handler{
+	position:absolute;
+	width: 17px;
+	height: 5px;
+	background: linear-gradient(90deg, rgba(242,242,245,1) 0%, rgba(6,3,3,1) 53%, rgba(16,16,17,1) 100%);
+	border-radius: 5px;
+	border: 1px solid #282A25;
+	top: 7px;
+	left: 75px;
+}
+.main-body__door-two {
+	position:relative;
+	width: 101px;
+	height: 28px;
+	background-color: transparent;
+	border-right: 1px solid #646162;
+	z-index: 3;
+	bottom: 456px;
+	left: 79px;
+	transform: rotate(1deg);
+	transform: skewX(-3deg);
+}
+.main-body__door-two-one{
+	position:relative;
+	width: 101px;
+	height: 28px;
+	background-color: transparent;
+	border-bottom: 1px solid #646162;
+	z-index: 3;
+	bottom: 466px;
+	left: 79px;
+	transform: rotate(-2deg);
+}
+.main-body__door-two::after{
+	content: "";
+	position: absolute;
+	left: 85px;
+	top: 20px;
+	display: block;
+	width: 25px;
+	height: 40px;
+	border-radius: 50%;
+	border-left: 1px solid #646162;
+	background: transparent;
+	transform: rotate(45deg);
+}
+.main-body__door-two-handler{
+	position:absolute;
+	width: 17px;
+	height: 5px;
+	background: linear-gradient(90deg, rgba(242,242,245,1) 0%, rgba(6,3,3,1) 53%, rgba(16,16,17,1) 100%);
+	border-radius: 5px;
+	border: 1px solid #282A25;
+	left: 75px;
+}
+.main-body__back-side {
+	position: relative;
+	bottom: 531px;
+	left: 130px;
+	z-index: 2;
+	width: 210px;
+	height: 35px;
+	background-color: #221B1C;
+	border-left: 1px solid #221B1C;
+	border-radius: 100px 100px 0 0/15px 15px 0 0;
+	transform: skewX(25deg);
+}
+.main-body__hood-side-ark-back {
+	position: relative;
+	background-color: transparent;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+	width: 80px;
+	height: 40px;
+	border-radius: 30px 30px 20px 20px / 15px 15px 5px 5px;
+	transform: perspective(200px) rotateX(-30deg) rotateY(0deg);
+	z-index: 3;
+	bottom: 528px;
+	left: 170px;
+}
+.main-body__hood-side-ark-back-bg{
+	position: relative;
+	background-color: #221B1C;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+	width: 80px;
+	height: 40px;
+	border-radius: 30px 30px 20px 20px / 15px 15px 5px 5px;
+	transform: perspective(200px) rotateX(-30deg) rotateY(0deg);
+	z-index: 2;
+	bottom: 5px;
+	transform: rotate(-3deg);
+}
+.main-body__hood-side-wheel-back {
+	position: relative;
+	background-color: #282A25;
+	height: 67px;
+	width: 67px;
+	border-radius: 50%;
+	bottom: 581px;
+	left: 177px;
+}
+.main-body__hood-side-wheel-disk-back {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background-color: #BCD2DF;
+	border: 3px solid #8E9697;
+	z-index: 3;
+	border-radius: 50%;
+	top: 25%;
+	left: 20%;
+	box-shadow: inset 0px 0px 3px 3px #221B1C;
+}
+.main-body__hood-side-wheel-disk-back-2 {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #050505;
+	top: 39%;
+	left: 35%;
+	z-index: 3;
+}
+.main-body__under-doors-line{
+	position: relative;
+	background-color: #221B1C;
+	width: 195px;
+	height: 10px;
+	bottom: 668px;
+	right: 26px;
+	z-index: 2;
+	transform: rotate(-1deg);
+}
+.main-body__bottom-back {
+	position: relative;
+	background-color: #221B1C;
+	width: 150px;
+	height: 40px;
+	bottom: 659px;
+	left: 190px;
+	border-radius: 0 0 90px 0/0 0 15px 0;
+	transform: rotate(-5deg);
+}
+.main-body__bottom-line-back {
+	position: relative;
+	background-color: #cad7dd;
+	width: 88px;
+	height: 6px;
+	bottom: 678px;
+	transform: rotate(-5deg);
+	left: 250px;
+	z-index: 3;
+}
+.main-body__bamper {
+	position: relative;
+	background-color: #C6E6F3;
+	width: 16px;
+	height: 30px;
+	border-radius: 5px 15px 0px 15px/5px 5px 0px 20px;
+	bottom: 680px;
+	right: 197px;
+	z-index: 2;
+	border: 1px solid #221B1C;
+	transform: rotate(-10deg) skewX(10deg);
+}
+.main-body__headlight {
+	position: relative;
+	background-color: transparent;
+	width: 15px;
+	height: 25px;
+	bottom: 730px;
+	right: 202px;
+	z-index: 2;
+	border-top: 3px solid #C6E6F3;
+	border-right: 3px solid #C6E6F3;
+	border-radius: 5px;
+	transform: skewX(15deg);
+}
+.main-body__headlight::after{
+	content: "";
+	position: absolute;
+	top: 2px;
+	display: block;
+	width: 10px;
+	height: 15px;
+	background-color: #B7BABC;
+}
+.main-body__lamp-1 {
+	position: relative;
+	background-color: #cedd45;
+	width: 9px;
+	height: 4px;
+	border-radius: 5px;
+	border: 1px solid #221B1C;
+	top: 3px;
+	z-index: 2;
+}
+.main-body__lamp-2 {
+	position: relative;
+	background-color: #cedd45;
+	width: 9px;
+	height: 4px;
+	border-radius: 5px;
+	border: 1px solid #221B1C;
+	top: 4px;
+	z-index: 2;
+}
+.main-body__lamp-3 {
+	position: relative;
+	background-color: #cedd45;
+	width: 9px;
+	height: 4px;
+	border-radius: 5px;
+	border: 1px solid #221B1C;
+	top: 5px;
+	z-index: 2;
+}
+.main-body__bamper-back {
+	position: relative;
+	background-color: #C6E6F3;
+	width: 10px;
+	height: 24px;
+	border-radius: 5px 5px 15px 5px/5px 5px 25px 5px;
+	bottom: 752px;
+	left: 333px;
+	z-index: 3;
+	border: 1px solid #221B1C;
+	transform: rotate(25deg) skewY(-13deg);
+}
